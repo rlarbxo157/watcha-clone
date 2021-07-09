@@ -64,9 +64,11 @@ span{
 }
 
 .header{
+    z-index: 300;
     position: fixed;
     height: 52px;
     width: 100%;
+    background-color: white;
     border-bottom: thin solid gray;
     font-family: RobotoInCjk, "Noto Sans KR", "Apple SD Gothic Neo", "Nanum Gothic", "Malgun Gothic", sans-serif;
 }

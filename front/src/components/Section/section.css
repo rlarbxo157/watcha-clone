@@ -1,0 +1,11 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 auto;
+}

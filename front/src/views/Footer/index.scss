@@ -1,0 +1,121 @@
+em{
+    color:red;
+}
+
+.footer{
+    position: relative;
+    background-color: black;
+    color: #a5a5a7;
+    .footer_f{
+        display: flex;
+        background-color: #1c1d1f;
+        justify-content: space-between;
+        height: 170px;
+        
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        width: 800px;
+        position: relative;
+        top: 15px;
+        left: 35px;
+        // top: 15px;
+        .watcha_logo{
+            height: 14px;
+        }
+
+
+        .footer-left-top{
+            display: flex;
+            color:#a5a5a7;
+            font-size: 11px;
+            margin: 0;
+            margin-bottom: 13px;
+            padding: 0;
+            li{
+                display: inline-block;
+                // margin-right: 5px;   
+            }
+            li::after{
+                content:"";
+                display: inline-block;
+                background: #848485;
+                vertical-align: top;
+                width: 1px;
+                height: 12px;
+                margin: 2px 8px 0;
+            }
+        }
+        .footer-left-info1{
+            list-style: none;
+            color: #a5a5a7;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }.footer-left-info2{
+            list-style: none;
+            color: #a5a5a7;
+            font-size: 11px;
+            margin-bottom: 12px;
+        }
+        .company_info{
+            font-size: 11px;
+            margin-bottom: 3px;
+        }
+        .company_tel{
+            font-size: 11px;
+            margin-bottom: 4px;
+        }
+        .watcha_logo{
+            display: flex;
+            width: 100%;
+        }
+        .watcha_logo_span{
+            width: 100%;
+            font-size: 11px;
+        }
+        .watcha_logo_img{
+            width: 65px;
+        }
+    }
+
+    .footer-right{
+        .language{
+            position: relative;
+            cursor: pointer;
+            background: none;
+            margin: 0;
+            color: #a5a5a7;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+            line-height: 23px;
+            text-align: left;
+            width: 87px;
+            height: 25px;
+            left: 15px;
+            top: 20px;
+            border:solid 1px #848485;
+            border-radius: 2px;
+        }
+        .sns_logo{
+            list-style: none;
+            position: relative;
+            right: 15px;
+            top: 80px;
+            .sns_logo_list{
+                display: flex;
+            }
+            li{
+                margin-right: 10px;
+            }
+        }
+        .twitter_logo{
+            // fill: #848485;
+        }
+    }
+    
+}
+
+
