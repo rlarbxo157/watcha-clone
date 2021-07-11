@@ -1,7 +1,9 @@
-import React from 'react';
+import React,{useCallback} from 'react';
 import './header.scss';
 
-const Header = () => {
+const Header = ({onClickSignupModal}) => {
+    // console.log(onClickSignupModal);
+
     return(
         <div className="header">
         <div className="container">
@@ -52,8 +54,8 @@ const Header = () => {
                                 로그인
                             </span>
                         </li>
-                        <li className="sign_up">
-                            <button className="signup">
+                        <li className="sign_up" >
+                            <button className="signup" onClick={onClickSignupModal}>
                                 회원가입
                             </button>
                         </li>

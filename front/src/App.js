@@ -1,22 +1,16 @@
 import './App.css';
-import Header from './views/Header';
 import {Switch,Route} from 'react-router-dom';
-import Section from './components/Section/index';
-import Footer from './views/Footer';
-import Signup from './components/Signup';
+import React,{useState} from 'react';
+import Home from './pages/Home/index.jsx';
+
 function App() {
   return (
     <>
-        <Header />
         <Switch>
-          <Route path="/">
-             <Section />
-             
+          <Route path="/" component={Home}>
+
           </Route>
         </Switch>
-
-        <Signup />
-        <Footer />
     </>
   );
 }

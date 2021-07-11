@@ -6,7 +6,7 @@ import './index.css';
 
 // 이컴포넌트에서 각각의 데이터의 carousel 을 만들어서 return 해주면될듯
 const CarouselData = ({data}) => {
-    console.log(data.data);
+    // console.log(data.data);
 
 
     const settings = {
